@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2e2e2e;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+}
+
+.question {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#next-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+/* Cập nhật cho logo */
+#social-links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#social-links a {
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#social-links i {
+    font-size: 32px; /* Kích thước lớn hơn cho biểu tượng */
+    color: #ffffff; /* Màu trắng cho biểu tượng */
+    transition: color 0.3s; /* Hiệu ứng chuyển màu khi hover */
+}
+
+#social-links i:hover {
+    color: #007bff; /* Màu khi hover */
+}
